@@ -18,12 +18,12 @@ fetch(BREEDS_URL)
 	});
 
 select.addEventListener("change", function (event) {
-	let url = `https:/dog.ceo/api/breed/${event.target.value}/images/random`;
+	let url = `https://dog.ceo/api/breed/${event.target.value}/images/random`;
 	getDoggo(url);
 });
 
 const img = document.querySelector(".dog-img");
-const spinner = document.querySelector('.spinner');
+const spinner = document.querySelector(".spinner");
 
 function getDoggo(url) {
 	spinner.classList.add("show");
