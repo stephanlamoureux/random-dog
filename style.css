@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(255, 185, 151);
+    background: linear-gradient(36deg, rgba(255, 185, 151, 1) 0%, rgba(246, 126, 125, 1) 16%, rgba(132, 59, 98, 1) 58%, rgba(98, 25, 64, 1) 100%, rgba(11, 3, 45, 1) 100%);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    padding: 0;
+    margin-bottom: .5rem;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+    padding: 7rem 0 1rem 0;
+    min-height: 100vh;
+}
+
+.breeds {
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spinner {
+    font-size: 50px;
+    text-align: center;
+    animation: 2s spin linear infinite;
+    display: none;
+}
+
+.dog-img {
+    display: none;
+}
+
+.show {
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    padding: 2rem 0;
+}
