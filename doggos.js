@@ -1,5 +1,5 @@
 const BREEDS_URL = "https://dog.ceo/api/breeds/list/all";
-const select = document.querySelector(".breeds"); // <select> tag
+const select = document.querySelector(".breeds");
 
 fetch(BREEDS_URL)
 	.then(function (response) {
