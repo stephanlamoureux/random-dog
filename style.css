@@ -6,6 +6,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background: rgb(255, 185, 151);
     background: linear-gradient(36deg, rgba(255, 185, 151, 1) 0%, rgba(246, 126, 125, 1) 16%, rgba(132, 59, 98, 1) 58%, rgba(98, 25, 64, 1) 100%, rgba(11, 3, 45, 1) 100%);
+    overflow: hidden;
 }
 
 nav {
@@ -37,7 +38,6 @@ h2 {
     flex-flow: column nowrap;
     width: 100%;
     align-items: center;
-    padding: 7rem 0 1rem 0;
     min-height: 100vh;
 }
 
