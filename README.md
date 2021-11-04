@@ -2,4 +2,4 @@
 
 Uses the API from https://dog.ceo/dog-api/ to generate a random dog picture of a selected breed.
 
-![Screenshot](images/dog.jpg)
+![Screenshot](images/random-dog.jpg)
