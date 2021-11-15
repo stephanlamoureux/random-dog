@@ -79,13 +79,9 @@ h2 {
     padding: 2rem 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     .show {
         max-height: 400px;
-    }
-
-    h2 {
-        margin-top: 150px;
     }
 }
 
