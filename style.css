@@ -79,11 +79,17 @@ h2 {
     padding: 2rem 0;
 }
 
+@media screen and (max-width: 1400px) {
+    .show {
+        max-height: 500px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .show {
         display: block;
         max-width: 400px;
-        max-height: 700px;
+        max-height: auto;
         padding: 2rem 0;
     }
 
@@ -98,11 +104,16 @@ h2 {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .show {
+        max-width: 350px;
+    }
+}
+
 @media screen and (max-width: 325px) {
     .show {
         display: block;
         max-width: 300px;
-        max-height: 700px;
         padding: 2rem 0;
     }
 
