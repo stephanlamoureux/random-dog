@@ -85,7 +85,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .show {
         display: block;
         max-width: 400px;
@@ -94,9 +94,10 @@ h2 {
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: 600;
         margin: 0;
+        padding: 0;
     }
 
     h2 {
